@@ -1,0 +1,29 @@
+.input-container {
+  width: 30rem;
+  height: 5rem;
+  position: relative;
+
+  padding-left: 0.25rem;
+  padding: 0.1rem;
+}
+
+.input {
+  left: 0.5rem;
+  top: 1.5rem;
+  position: absolute;
+  height: 2.5rem;
+  width: 29rem;
+  border-radius: 0.3rem;
+  border: 1px #dbe3e9 solid;
+  padding-left: 1rem;
+}
+
+.input-title {
+  left: 0.5rem;
+  text-align: start;
+  position: absolute;
+  height: 1.5rem;
+  width: 29rem;
+  font-weight: 400;
+  font-size: 0.9rem;
+}

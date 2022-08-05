@@ -1,0 +1,44 @@
+.card-selected {
+  width: 40%;
+  height: 11rem;
+  display: inline-block;
+  padding: 1rem;
+  border: 2px blue solid;
+  border-radius: 0.3rem;
+  margin: 1rem;
+  position: relative;
+}
+
+.card-title {
+  position: absolute;
+  width: 8rem;
+  top: 40%;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.card-text {
+  position: absolute;
+  top: 55%;
+  width: 8rem;
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: rgb(135, 132, 132);
+}
+
+.card-not-selected {
+  width: 40%;
+  height: 11rem;
+  display: inline-block;
+  padding: 1rem;
+  border: 1px rgb(135, 132, 132) solid;
+  border-radius: 0.3rem;
+  margin: 1rem;
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  top: 0%;
+  left: 3%;
+}
